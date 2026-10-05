@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" width="900" height="330" role="img">
+<rect x="0" y="0" width="900" height="330" fill="#0d2035" stroke="none"/>
+<text x="28" y="38" fill="#9ccef7" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700">MODELS TO ENGINEERING DOCUMENTATION</text>
+<text x="28" y="72" fill="#afc4d8" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400">Assembly development</text>
+<text x="28" y="210" fill="#afc4d8" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400">Design communication</text>
+<rect x="28" y="85" width="256" height="68" fill="#13314d" stroke="#456683"/>
+<text x="44" y="112" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">SolidWorks parts</text>
+<text x="44" y="136" fill="#c5d8e9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Component geometry</text>
+<rect x="322" y="85" width="256" height="68" fill="#13314d" stroke="#456683"/>
+<text x="338" y="112" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">Head subassembly</text>
+<text x="338" y="136" fill="#c5d8e9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Assembly relationships</text>
+<rect x="616" y="85" width="256" height="68" fill="#13314d" stroke="#456683"/>
+<text x="632" y="112" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">Motion evaluation</text>
+<text x="632" y="136" fill="#c5d8e9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Design trade studies</text>
+<rect x="28" y="224" width="256" height="68" fill="#13314d" stroke="#456683"/>
+<text x="44" y="251" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">Engineering drawings</text>
+<text x="44" y="275" fill="#c5d8e9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Part-level documentation</text>
+<rect x="322" y="224" width="256" height="68" fill="#13314d" stroke="#456683"/>
+<text x="338" y="251" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">GD&amp;T</text>
+<text x="338" y="275" fill="#c5d8e9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Design intent</text>
+<rect x="616" y="224" width="256" height="68" fill="#13314d" stroke="#456683"/>
+<text x="632" y="251" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">Fabrication planning</text>
+<text x="632" y="275" fill="#c5d8e9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Manufacturability</text>
+<line x1="284" y1="119" x2="322" y2="119" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="322" y1="119" x2="315" y2="115" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="322" y1="119" x2="315" y2="123" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="578" y1="119" x2="616" y2="119" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="616" y1="119" x2="609" y2="115" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="616" y1="119" x2="609" y2="123" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="284" y1="258" x2="322" y2="258" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="322" y1="258" x2="315" y2="254" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="322" y1="258" x2="315" y2="262" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="578" y1="258" x2="616" y2="258" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="616" y1="258" x2="609" y2="254" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="616" y1="258" x2="609" y2="262" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="156" y1="153" x2="156" y2="177" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="156" y1="177" x2="12" y2="177" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="12" y1="177" x2="12" y2="258" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="12" y1="258" x2="28" y2="258" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="28" y1="258" x2="21" y2="254" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="28" y1="258" x2="21" y2="262" stroke="#77a3c9" stroke-width="1.5"/>
+</svg>

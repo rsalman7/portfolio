@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 635" width="420" height="635" role="img">
+<rect x="0" y="0" width="420" height="635" fill="#0d2035" stroke="none"/>
+<text x="24" y="34" fill="#9ccef7" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700">MODELS TO DRAWINGS</text>
+<text x="24" y="64" fill="#afc4d8" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Assembly development</text>
+<rect x="24" y="78" width="372" height="68" fill="#13314d" stroke="#456683"/>
+<text x="40" y="105" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">SolidWorks parts</text>
+<text x="40" y="129" fill="#c5d8e9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Component geometry</text>
+<line x1="210" y1="146" x2="210" y2="161" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="210" y1="161" x2="206" y2="154" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="210" y1="161" x2="214" y2="154" stroke="#77a3c9" stroke-width="1.5"/>
+<rect x="24" y="161" width="372" height="68" fill="#13314d" stroke="#456683"/>
+<text x="40" y="188" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">Head subassembly</text>
+<text x="40" y="212" fill="#c5d8e9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Assembly relationships</text>
+<line x1="210" y1="229" x2="210" y2="244" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="210" y1="244" x2="206" y2="237" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="210" y1="244" x2="214" y2="237" stroke="#77a3c9" stroke-width="1.5"/>
+<rect x="24" y="244" width="372" height="68" fill="#13314d" stroke="#456683"/>
+<text x="40" y="271" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">Motion evaluation</text>
+<text x="40" y="295" fill="#c5d8e9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Design trade studies</text>
+<text x="24" y="354" fill="#afc4d8" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Design communication</text>
+<rect x="24" y="368" width="372" height="68" fill="#13314d" stroke="#456683"/>
+<text x="40" y="395" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">Engineering drawings</text>
+<text x="40" y="419" fill="#c5d8e9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Part-level documentation</text>
+<line x1="210" y1="436" x2="210" y2="451" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="210" y1="451" x2="206" y2="444" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="210" y1="451" x2="214" y2="444" stroke="#77a3c9" stroke-width="1.5"/>
+<rect x="24" y="451" width="372" height="68" fill="#13314d" stroke="#456683"/>
+<text x="40" y="478" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">GD&amp;T</text>
+<text x="40" y="502" fill="#c5d8e9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Design intent</text>
+<line x1="210" y1="519" x2="210" y2="534" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="210" y1="534" x2="206" y2="527" stroke="#77a3c9" stroke-width="1.5"/>
+<line x1="210" y1="534" x2="214" y2="527" stroke="#77a3c9" stroke-width="1.5"/>
+<rect x="24" y="534" width="372" height="68" fill="#13314d" stroke="#456683"/>
+<text x="40" y="561" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">Fabrication planning</text>
+<text x="40" y="585" fill="#c5d8e9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400">Manufacturability</text>
+</svg>

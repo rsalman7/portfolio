@@ -1,0 +1,4 @@
+# Allow crawlers to read the noindex instructions on pages and responses.
+# robots.txt is not an access-control mechanism.
+User-agent: *
+Disallow:
