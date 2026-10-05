@@ -13,12 +13,12 @@
 <a class="skip" href="#work">Skip to selected work</a>
 <header class="header"><div class="wrap header-inner">
 <a class="brand" href="#top" aria-label="Rayyan Salman, back to top"><span class="monogram" aria-hidden="true">RS</span><span class="brand-name">RAYYAN SALMAN</span></a>
-<nav class="nav" aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a><a class="nav-pdf" href="assets/Rayyan_Salman_Engineering_Portfolio.pdf" download>Portfolio PDF</a></nav>
+<nav class="nav" aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a><a class="nav-pdf" href="Rayyan_Salman_Engineering_Portfolio.pdf" download>Portfolio PDF</a></nav>
 </div></header>
 <main>
 <section class="hero wrap" aria-labelledby="hero-title"><p class="eyebrow">Mechanical engineering portfolio / 2026</p>
 <div class="hero-grid"><div><h1 id="hero-title">Rayyan<span>Salman.</span></h1><p class="hero-lead">I’m a Georgia Tech mechanical engineering student working across CAD and physical hardware. My projects range from controlling a collaborative robot to packaging sensors for a research payload.</p>
-<div class="hero-actions"><a class="button primary" href="#work">Explore my work</a><a class="button" href="assets/Rayyan_Salman_Engineering_Portfolio.pdf" download>Download portfolio</a></div></div>
+<div class="hero-actions"><a class="button primary" href="#work">Explore my work</a><a class="button" href="Rayyan_Salman_Engineering_Portfolio.pdf" download>Download portfolio</a></div></div>
 <aside class="hero-aside" aria-label="Education"><dl><div class="fact"><dt>Education</dt><dd><strong>Georgia Institute of Technology</strong><br>B.S. Mechanical Engineering</dd></div><div class="fact"><dt>Expected graduation</dt><dd>May 2028</dd></div></dl></aside></div>
 </section>
 <section class="work-index wrap" id="work" aria-labelledby="work-title"><div class="section-label"><h2 id="work-title">Selected work</h2><span>Mechanical design + hardware integration</span></div>
@@ -27,7 +27,7 @@
 <a class="index-link" href="#balloon"><span class="index-no">03</span><div><strong>High-altitude balloon payload</strong><small>Georgia Tech VIP · 2025–2026</small></div><span class="index-field">Payloads / Embedded / Data</span></a>
 </section>
 <article class="project alt" id="latticept" aria-labelledby="latticept-title"><div class="wrap"><div class="project-top"><span class="project-number">01</span><div><h2 id="latticept-title">Getting a robot to follow the plan.</h2><div class="project-meta"><span>LATTICEPT · Mechanical Engineer Intern</span><span>January–July 2026 · Roswell, GA</span></div><p class="project-intro">I developed a Python-driven motion workflow for a FANUC CRX-10iA/L and worked with a weld-scanning camera. The challenge was turning generated paths and sensor output into behavior we could test and inspect.</p></div></div>
-<div class="case-body"><figure class="workflow"><picture><source media="(max-width:600px)" srcset="assets/motion-mobile.svg"><img src="assets/motion.svg" width="900" height="330" alt="Two project workflows: calibrated Python trajectories pass through Stream Motion to the FANUC robot; FujiCam scan profiles pass through Python tools to geometry review."></picture><figcaption>Workflow overview. Motion control and scan-data analysis are shown as separate workstreams.</figcaption></figure>
+<div class="case-body"><figure class="workflow"><picture><source media="(max-width:600px)" srcset="motion-mobile.svg"><img src="motion.svg" width="900" height="330" alt="Two project workflows: calibrated Python trajectories pass through Stream Motion to the FANUC robot; FujiCam scan profiles pass through Python tools to geometry review."></picture><figcaption>Workflow overview. Motion control and scan-data analysis are shown as separate workstreams.</figcaption></figure>
 <div class="case-columns"><div><h3>My contribution</h3><ul><li>Built three-point plane calibration and coordinate transforms to place 2D paths in the robot’s 3D workspace.</li><li>Developed S-curve trajectory generation with adjustable velocity, acceleration, and jerk limits.</li><li>Implemented command-packet encoding, robot-status parsing, and a UDP streaming client for FANUC Stream Motion.</li><li>Added offline trajectory analysis and CSV export, and used robot testing to investigate motion faults.</li><li>Built Python tools to export, visualize, and compare FUJI-CAM weld-profile data.</li></ul></div><div class="outcome"><h3>What came out of it</h3><p>A working path-execution workflow for tasks including robotic writing, alongside tools for inspecting scan geometry.</p><p>Separating geometry, trajectory planning, and communication made it possible to inspect a planned move before sending it to the robot. Hardware testing then guided changes to the motion settings and timing.</p></div></div>
 <section class="controller-study" aria-labelledby="controller-title">
   <h3 id="controller-title">Inside the motion controller</h3>
@@ -107,8 +107,8 @@ state.status = RobotStatus(
     </div></div>
     <div class="case-body">
       <figure class="cad-figure cad-wide">
-        <a href="assets/sar-head-assembly.jpeg" target="_blank" rel="noopener" aria-label="Open full-size sensor-head CAD image">
-          <img src="assets/sar-head-assembly.jpeg" width="1321" height="703" loading="lazy" alt="SolidWorks sensor-head subassembly with the internal sensor plate visible below the domed shell and two antenna assemblies above it.">
+        <a href="sar-head-assembly.jpeg" target="_blank" rel="noopener" aria-label="Open full-size sensor-head CAD image">
+          <img src="sar-head-assembly.jpeg" width="1321" height="703" loading="lazy" alt="SolidWorks sensor-head subassembly with the internal sensor plate visible below the domed shell and two antenna assemblies above it.">
         </a>
         <figcaption><strong>Sensor-head subassembly</strong> My CAD model from the Fall 2025 project report, shown with the internal sensor mounting features visible.</figcaption>
       </figure>
@@ -135,11 +135,11 @@ state.status = RobotStatus(
     <div class="case-body">
       <div class="cad-gallery">
         <figure class="cad-figure">
-          <a href="assets/vip-efm-case.png" target="_blank" rel="noopener" aria-label="Open full-size EFM case CAD image"><img src="assets/vip-efm-case.png" width="664" height="720" loading="lazy" alt="Isometric CAD view of the EFM case, showing its top flange, central opening, mounting holes, and internal geometry."></a>
+          <a href="vip-efm-case.png" target="_blank" rel="noopener" aria-label="Open full-size EFM case CAD image"><img src="vip-efm-case.png" width="664" height="720" loading="lazy" alt="Isometric CAD view of the EFM case, showing its top flange, central opening, mounting holes, and internal geometry."></a>
           <figcaption><strong>EFM case redesign</strong> Revised enclosure geometry for the EFM hardware and its mounting interfaces.</figcaption>
         </figure>
         <figure class="cad-figure">
-          <a href="assets/vip-battery-case.png" target="_blank" rel="noopener" aria-label="Open full-size battery case CAD image"><img src="assets/vip-battery-case.png" width="636" height="740" loading="lazy" alt="Isometric CAD view of the elongated battery case, with parallel slots along the side walls and an opening at one end."></a>
+          <a href="vip-battery-case.png" target="_blank" rel="noopener" aria-label="Open full-size battery case CAD image"><img src="vip-battery-case.png" width="636" height="740" loading="lazy" alt="Isometric CAD view of the elongated battery case, with parallel slots along the side walls and an opening at one end."></a>
           <figcaption><strong>Battery case design</strong> My enclosure CAD for the balloon payload’s battery system.</figcaption>
         </figure>
       </div>
@@ -163,12 +163,12 @@ writer.writerow([
     A1.strip(), A2.strip(), UV.strip(),
     *raw_vals, *val_vals
 ])</code></pre>
-        <p><a href="assets/parse_efm_log.py" download>Download my EFM parser (.py)</a></p>
+        <p><a href="parse_efm_log.py" download>Download my EFM parser (.py)</a></p>
       </details>
     </div>
   </div>
 </article>
-<section class="about wrap" id="about" aria-labelledby="about-title"><div class="about-grid"><div><p class="eyebrow">Background</p><h2 id="about-title">Learning by making.</h2><p>I’m pursuing a B.S. in Mechanical Engineering at Georgia Tech, with an expected graduation date of May 2028. I enjoy taking a design from CAD through fabrication and testing.</p><a class="button" href="assets/Rayyan_Salman_Resume.pdf" download>Download résumé</a></div><div><div class="about-row"><h3>FIRST Robotics Competition<span>Mechanical Design Team · 2022–2024</span></h3><p>Modeled drivetrain and intake assemblies in SolidWorks and supported fabrication through CNC machining and 3D printing.</p></div><div class="about-row"><h3>Adaptive ride-on vehicle<span>Power Wheels modification · 2023</span></h3><p>Redesigned seating, controls, and structural supports to adapt a ride-on vehicle for a child with cerebral palsy.</p></div><div class="skills"><div><h3>Design &amp; fabrication</h3><p>SolidWorks, Fusion 360, GD&amp;T, engineering drawings, 3D printing, CNC machining, laser cutting, TIG welding.</p></div><div><h3>Hardware &amp; software</h3><p>Python, FANUC Stream Motion, machine vision, CAN-FD, RP2040, pandas, NumPy, and Matplotlib.</p></div></div></div></div></section>
+<section class="about wrap" id="about" aria-labelledby="about-title"><div class="about-grid"><div><p class="eyebrow">Background</p><h2 id="about-title">Learning by making.</h2><p>I’m pursuing a B.S. in Mechanical Engineering at Georgia Tech, with an expected graduation date of May 2028. I enjoy taking a design from CAD through fabrication and testing.</p><a class="button" href="Rayyan_Salman_Resume.pdf" download>Download résumé</a></div><div><div class="about-row"><h3>FIRST Robotics Competition<span>Mechanical Design Team · 2022–2024</span></h3><p>Modeled drivetrain and intake assemblies in SolidWorks and supported fabrication through CNC machining and 3D printing.</p></div><div class="about-row"><h3>Adaptive ride-on vehicle<span>Power Wheels modification · 2023</span></h3><p>Redesigned seating, controls, and structural supports to adapt a ride-on vehicle for a child with cerebral palsy.</p></div><div class="skills"><div><h3>Design &amp; fabrication</h3><p>SolidWorks, Fusion 360, GD&amp;T, engineering drawings, 3D printing, CNC machining, laser cutting, TIG welding.</p></div><div><h3>Hardware &amp; software</h3><p>Python, FANUC Stream Motion, machine vision, CAN-FD, RP2040, pandas, NumPy, and Matplotlib.</p></div></div></div></div></section>
 </main>
-<footer class="contact" id="contact"><div class="wrap"><p class="eyebrow">Contact</p><h2>Let’s talk engineering.</h2><div class="contact-grid"><div><a class="contact-email" href="mailto:rayyansalman08@gmail.com">rayyansalman08@gmail.com</a><p class="contact-phone"><a href="tel:+14706615050">(470) 661-5050</a></p><div class="contact-links"><a href="https://www.linkedin.com/in/rayyan-salman-358b26377/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="assets/Rayyan_Salman_Resume.pdf" download>Résumé</a><a href="assets/Rayyan_Salman_Engineering_Portfolio.pdf" download>Portfolio PDF</a></div></div><a class="button" href="mailto:rayyansalman08@gmail.com">Get in touch</a></div><div class="footer"><span>Rayyan Salman · Atlanta, Georgia</span></div></div></footer>
+<footer class="contact" id="contact"><div class="wrap"><p class="eyebrow">Contact</p><h2>Let’s talk engineering.</h2><div class="contact-grid"><div><a class="contact-email" href="mailto:rayyansalman08@gmail.com">rayyansalman08@gmail.com</a><p class="contact-phone"><a href="tel:+14706615050">(470) 661-5050</a></p><div class="contact-links"><a href="https://www.linkedin.com/in/rayyan-salman-358b26377/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="Rayyan_Salman_Resume.pdf" download>Résumé</a><a href="Rayyan_Salman_Engineering_Portfolio.pdf" download>Portfolio PDF</a></div></div><a class="button" href="mailto:rayyansalman08@gmail.com">Get in touch</a></div><div class="footer"><span>Rayyan Salman · Atlanta, Georgia</span></div></div></footer>
 </body></html>
