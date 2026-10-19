@@ -25,7 +25,7 @@
 <a class="index-link" href="#latticept"><span class="index-no">01</span><div><strong>Robot motion &amp; machine vision</strong><small>LATTICEPT · January–July 2026</small></div><span class="index-field">Robotics / Python / Testing</span></a>
 <a class="index-link" href="#ant-robot"><span class="index-no">02</span><div><strong>Search-and-rescue ant robot</strong><small>Georgia Tech · August–December 2025</small></div><span class="index-field">SolidWorks / GD&amp;T</span></a>
 <a class="index-link" href="#balloon"><span class="index-no">03</span><div><strong>High-altitude balloon payload</strong><small>Georgia Tech VIP · 2025–2026</small></div><span class="index-field">Payloads / Embedded / Data</span></a>
-<a class="index-link" href="#frc"><span class="index-no">04</span><div><strong>FIRST Robotics Competition</strong><small>Mechanical Design Team · 2022–2024</small></div><span class="index-field">SolidWorks / CNC / 3D Printing</span></a>
+<a class="index-link" href="#frc"><span class="index-no">04</span><div><strong>FIRST Robotics Competition</strong><small>Mechanical Design Team · 2022–2024</small></div><span class="index-field">Chassis Design / SolidWorks / Welding</span></a>
 </section>
 <article class="project alt" id="latticept" aria-labelledby="latticept-title"><div class="wrap"><div class="project-top"><span class="project-number">01</span><div><h2 id="latticept-title">Getting a robot to follow the plan.</h2><div class="project-meta"><span>LATTICEPT · Mechanical Engineer Intern</span><span>January–July 2026 · Roswell, GA</span></div><p class="project-intro">I developed a Python-driven motion workflow for a FANUC CRX-10iA/L and worked with a weld-scanning camera. The challenge was turning generated paths and sensor output into behavior we could test and inspect.</p></div></div>
 <div class="case-body"><figure class="workflow"><picture><source media="(max-width:600px)" srcset="motion-mobile.svg"><img src="motion.svg" width="900" height="330" alt="Two project workflows: calibrated Python trajectories pass through Stream Motion to the FANUC robot; FujiCam scan profiles pass through Python tools to geometry review."></picture><figcaption>Workflow overview. Motion control and scan-data analysis are shown as separate workstreams.</figcaption></figure>
@@ -172,25 +172,26 @@ writer.writerow([
 <article class="project" id="frc" aria-labelledby="frc-title">
   <div class="wrap">
     <div class="project-top"><span class="project-number">04</span><div>
-      <h2 id="frc-title">Modeling and fabricating competitive robotic systems.</h2>
+      <h2 id="frc-title">Engineering a rigid, lightweight competition chassis.</h2>
       <div class="project-meta"><span>FIRST Robotics Competition · Mechanical Design Team</span><span>2022–2024</span></div>
-      <p class="project-intro">As part of the mechanical design team, I modeled drivetrain and intake assemblies in SolidWorks and brought them to life through CNC machining and 3D printing.</p>
+      <p class="project-intro">As part of the mechanical design team, I engineered a custom swerve drive chassis in SolidWorks and fabricated the physical frame using CNC machining and TIG welding.</p>
     </div></div>
     <div class="case-body">
       
       <figure class="cad-figure cad-wide">
-        <img src="frc-robot.jpeg" width="1200" height="600" loading="lazy" alt="CAD model and physical assembly of the FRC robot drivetrain.">
-        <figcaption><strong>Drivetrain & Intake</strong> SolidWorks modeling and physical fabrication.</figcaption>
+        <img src="image_8c8149.jpg" width="1200" height="600" loading="lazy" alt="CAD render of an orange and black FRC robot chassis featuring four corner swerve drive modules and a hexagonal honeycomb lightening pattern on the base plate.">
+        <figcaption><strong>Swerve Drive Chassis</strong> SolidWorks modeling of the Team 8866 robot base, featuring integrated drive modules and a weight-optimized honeycomb structure.</figcaption>
       </figure>
 
       <div class="case-columns"><div><h3>My contribution</h3><ul>
-        <li>Designed custom drivetrain components and intake mechanisms in SolidWorks to meet competitive game constraints.</li>
-        <li>Operated CNC machines to accurately cut and drill structural plates, linkages, and mounts.</li>
-        <li>Utilized 3D printing for rapid prototyping and producing lightweight custom parts for the robot.</li>
-      </ul></div><div class="outcome"><h3>Design to fabrication</h3>
-        <p>This experience bridged the gap between CAD theory and physical hardware. Designing for manufacturing meant considering tool access, material properties, and assembly tolerances from the very beginning.</p>
+        <li>Designed a custom swerve drive chassis in SolidWorks, utilizing a honeycomb base plate pattern to significantly reduce weight while maintaining structural rigidity.</li>
+        <li>Prepared structural components for fabrication by generating toolpaths and operating CNC machines for precise hole placement and cuts.</li>
+        <li>Assembled the physical robot frame utilizing TIG welding to ensure high-strength, durable joints capable of withstanding competition impacts.</li>
+        <li>Integrated four corner drive modules, holding strict mounting tolerances to ensure accurate drivetrain kinematics.</li>
+      </ul></div><div class="outcome"><h3>Design for manufacturability</h3>
+        <p>This project required balancing weight limits with the extreme durability needed for competition. Designing the chassis in CAD before cutting material ensured that all mounting points aligned perfectly for the welding and final assembly phases.</p>
       </div></div>
-      <div class="tools"><b>Tools &amp; methods</b><span>SolidWorks</span><span>CNC Machining</span><span>3D Printing</span><span>Mechanical Assembly</span></div>
+      <div class="tools"><b>Tools &amp; methods</b><span>SolidWorks</span><span>TIG Welding</span><span>CNC Machining</span><span>Structural Design</span></div>
     </div>
   </div>
 </article>
